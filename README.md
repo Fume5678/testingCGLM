@@ -13,18 +13,18 @@
 ### Документация проекта
 myVec2() - вектор размерностью 2
 Методы:
-    - myVec2() – стандартный конструктор;
-    - myVec2(float) – конструктор принимающий начальное значение;
-    - myVec2(const myVec2&) – конструктор копирования;
-    - myVec2 operator+(const myVec2&) – прибавление вектора;
-    - myVec2 operator+(float val) – прибавка val к каждому элементу вектора;
-    - myVec2 operator-(const myVec2&) – вычитание вектора;
-    - myVec2 operator-(float val) – вычитание val из каждого элемента вектора;
-    - myVec2 operator=(const myVec2&) – заменяет содержимое вектора;
-    - myVec2 operator=(const myVec2&) – заменяет содержимое вектора;
-    - void set(int ind, float val) – заменяет значение на месте ind значением val. Может вернуть исключение std::range_error;
-    - float get(int ind) – возвращает значение на месте ind. Может вернуть исключение std::range_error;
-    - friend bool operator==(const myVec2& a, const myVec2& b) – дружественная функция сравнения двух векторов.
+* myVec2() – стандартный конструктор;
+* myVec2(float) – конструктор принимающий начальное значение;
+* myVec2(const myVec2&) – конструктор копирования;
+* myVec2 operator+(const myVec2&) – прибавление вектора;
+* myVec2 operator+(float val) – прибавка val к каждому элементу вектора;
+* myVec2 operator-(const myVec2&) – вычитание вектора;
+* myVec2 operator-(float val) – вычитание val из каждого элемента вектора;
+* myVec2 operator=(const myVec2&) – заменяет содержимое вектора;
+* myVec2 operator=(const myVec2&) – заменяет содержимое вектора;
+* void set(int ind, float val) – заменяет значение на месте ind значением val. Может вернуть исключение std::range_error;
+* float get(int ind) – возвращает значение на месте ind. Может вернуть исключение std::range_error;
+* friend bool operator==(const myVec2& a, const myVec2& b) – дружественная функция сравнения двух векторов.
 
 MyVec3() – вектор размерностью 3
 Методы:
